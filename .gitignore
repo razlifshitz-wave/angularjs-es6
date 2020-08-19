@@ -1,0 +1,10 @@
+.idea
+*.rar
+package-lock.json
+/node_modules/
+/app/lib/
+/app/assets/css/*.css
+/app/ip-not-found/*.css
+/dist
+/dest
+/temp
