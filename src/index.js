@@ -1,6 +1,6 @@
 import angular from 'angular'
-import peopleModule from './people/people.module'
+import envelope from './envelope/people.module'
 
-var mod = angular.module('app', [peopleModule]);
+var mod = angular.module('app', [envelope]);
 
 export default mod;

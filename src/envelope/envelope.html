@@ -1,0 +1,5 @@
+<h1>Envelope View</h1>
+<div>{{$ctrl.someAsyncData}}</div>
+<div ng-repeat="envelope in $ctrl.envelopes track by envelope.id">
+    <wv-envelope-item envelope="envelope">
+</div>
